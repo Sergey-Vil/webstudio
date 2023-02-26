@@ -1,0 +1,90 @@
+$c-primery: var(--c-primery);
+$c-accent: var(--c-accent);
+$inherit: inherit;
+$bg-accent: var(--bg-accent);
+$title-text-color: var(--title-text-color);
+$footer-link: var(--footer-link);
+$white-color: var(--white-color);
+$c-placeholder: var(--c-placeholder);
+$font_family_1: 'Roboto', sans-serif;
+$font_family_2: 'Raleway', sans-serif;
+$bg-section: var(--bg-section);
+$bg-hero: var(--bg-hero);
+$background-color-btn: var(--background-color-btn);
+$bg-team: var(--bg-team);
+$bg-c-footer: var(--background-color);
+$bg-galary-desc: var(--bg-galary-desc);
+$bg-btn: var(--bg-btn);
+$border_color_1: transparent;
+$border_color_2: var(--bg-accent);
+
+:root {
+  --c-primery: #212121;
+  --title-text-color: #757575;
+  --c-accent: #2196f3;
+  --c-placeholder: rgba(117, 117, 117, 0.5);
+  --white-color: #ffffff;
+  --background-color: #2f303a;
+  --background-color-btn: #f5f4fa;
+  --footer-link: rgba(255, 255, 255, 0.6);
+  --bg-section: #ffffff;
+  --bg-hero: #c4c4c4;
+  --bg-works-desk: rgba(47, 48, 58, 0.8);
+  --bg-partners: #afb1b8;
+  --bg-social: rgba(255, 255, 255, 0.1);
+  --bg-accent: #2196f3;
+  --bg-btn: #188ce8;
+  --bg-team: #f5f4fa;
+  --bg-works: #f5f5f5;
+  --border-hed: #ececec;
+  --border-col: #eeeeee;
+  --bg-galary-desc: rgba(33, 150, 243, 0.9);
+}
+body {
+  position: relative;
+  font-family: $font_family_1;
+  letter-spacing: 0.03em;
+  margin: 0 auto;
+  color: $c-primery;
+}
+
+h1 {
+  margin: 0 0;
+}
+
+h2 {
+  margin: 0 0;
+}
+
+h3 {
+  margin: 0 0;
+}
+
+h4 {
+  margin: 0 0;
+}
+
+h5 {
+  margin: 0 0;
+}
+
+h6 {
+  margin: 0 0;
+}
+
+p {
+  margin: 0 0;
+}
+
+ul {
+  margin: 0 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.hide{
+  display: none;
+}

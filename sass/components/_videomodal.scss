@@ -1,0 +1,86 @@
+.video__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  transition: opacity 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67),
+    visibility cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+
+button {
+  text-transform: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.video__wrap .video__modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.is-hidden {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.video__window .video__iframe {
+  max-width: 320px;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  overflow: auto;
+  padding: 0;
+}
+@media screen and (min-width: 768px) {
+  .video__window {
+    max-width: 568px;
+  }
+}
+
+.video__close-btn .video__btn--close {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 16px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: none;
+  border-radius: 50%;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (max-width: 767px) {
+  .video__youtube .video__watch {
+    max-width: 320px;
+    height: 315px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .video__youtube {
+    width: 568px;
+    height: 315px;
+  }
+}
