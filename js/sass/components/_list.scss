@@ -1,0 +1,12 @@
+.list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style: none;
+
+  @media screen and (max-width:767px) {
+    justify-content: start;
+  }
+}
+
